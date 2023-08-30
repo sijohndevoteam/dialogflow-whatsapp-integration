@@ -45,10 +45,11 @@ A simple way to connect and integrate Dialogflow CX with Whatsapp with Twilio.
 15. Click on your created function. Open the Trigger tab and copy the trigger URL.
 
 # Twilio configuration
+
 16. Create your free account in Twilio and from the console copy accountSid and auth_token which will be used as enviroment variables in cloud function.
 
 17. From the left menu select messaging and from Try it out select Send a Whatsapp message. This should open Twilio Sandblox for Whatsapp.
 
-18. In your Twilio Sandbox configuration (link), paste the URL into the "when a message comes in" field and click save and follow the instructions.
+18. In your Twilio Sandbox configuration, paste the URL into the "when a message comes in" field and click save and follow the instructions.
 
 19. You can now test the integration of your Dialogflow CX agent with the Twilio Sandbox's WhatsApp number.
